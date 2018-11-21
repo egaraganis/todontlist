@@ -1,0 +1,80 @@
+body{
+    background: url(https://images.pexels.com/photos/442574/pexels-photo-442574.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#todo-table{
+    position: relative;
+    width: 60%;
+    background-color: #E7E2E8;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#todo-table form:after{
+    margin: 0;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+input[type="text"]{
+    width: 70%;
+    padding: 20px;
+    background:white;
+    border: 0;
+    float: left;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    color: #181c22;
+}
+
+button{
+    font-family: 'Caveat', cursive;
+    padding: 20px;
+    width: 30%;
+    float: left;
+    background: #3A2B28;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    font-family: 'Caveat', cursive;
+    width: 100%;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-size: 40px;
+    color: #181c22;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+li:hover{
+    text-decoration: line-through;
+}
+
+h1 {
+  letter-spacing: 3px;
+  word-spacing: normal;
+  text-align:center;
+  font-family: 'Permanent Marker', cursive;
+  width: 410px;
+  margin: 3% auto;
+  color: #181c22;
+}
+
+title{
+  font-family: 'Permanent Marker', cursive;  
+}

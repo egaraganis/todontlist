@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Permanent+Marker" rel="stylesheet">
+    <link href="/assets/styles.css" rel="stylesheet" type="text/css">
+    <title> ✏️ To-Do List</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/assets/todo-list.js"></script>
+  </head>
+  <body>
+    <h1>TO-DO LIST</h1>
+    <div id="todo-table">
+      <form novalidate>
+        <input type="text" placeholder="Add new item..." required />
+        <button type="submit"> Add Item </button>
+        <ul>
+          <% for(var i=0; i< todos.length; i++){ %>
+            <li> <%= todos[i] %></li>
+          <%}%>
+        </ul>
+      </form>
+    </div>
+  </body>
+</html>
