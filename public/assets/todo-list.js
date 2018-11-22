@@ -9,6 +9,7 @@
         data: todo,
         success: function(data){
           //do something with the data via front-end framework
+          console.log('hey');
           location.reload();
         }
       });
@@ -22,8 +23,9 @@
         type: 'DELETE',
         url: '/todo/',
         data: todo,
-        success: function(data){
+        error: function(data){
           //do something with the data via front-end framework
+          console.log('heyyyy');
           location.reload();
         }
       });
