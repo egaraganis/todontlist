@@ -12,4 +12,4 @@ To run:
 node app.js
 ```
 
-*node should be installed
+*node should be installed*
