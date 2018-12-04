@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 
 var urlencodedParser = bodyParser.urlencoded({extended: false}); // middleware
 
-var data = []; // todo items will be stored here
+var data=[]; // todo items will be stored here
 
 module.exports = function(app){
   // set up simple routing , handle http requests

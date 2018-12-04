@@ -2,16 +2,20 @@
   <head>
     <link href="https://fonts.googleapis.com/css?family=Caveat|Permanent+Marker" rel="stylesheet">
     <link href="/assets/styles.css" rel="stylesheet" type="text/css">
-    <title> ✏️ To-Do List</title>
+    <title> ✏️ To-Don't List</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="/assets/todo-list.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <h1>TO-DO LIST</h1>
+    <h1>TO-DON'T LIST</h1>
     <div id="todo-table">
       <form novalidate>
-        <input type="text" placeholder="Add new item..." required />
-        <button type="submit"> Add Item </button>
+        <input type="text" placeholder="Add a new item, habbit, goal..." required />
+        <button type="submit"> Add  </button>
         <ul>
           <% for(var i=0; i< todos.length; i++){ %>
             <li> <%= todos[i] %></li>

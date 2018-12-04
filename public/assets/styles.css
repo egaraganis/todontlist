@@ -53,7 +53,7 @@ ul{
 li{
     font-family: 'Caveat', cursive;
     width: 100%;
-    padding-top: 10px;
+    padding-top: 20px;
     box-sizing: border-box;
     font-size: 40px;
     color: #181c22;
@@ -76,5 +76,5 @@ h1 {
 }
 
 title{
-  font-family: 'Permanent Marker', cursive;  
+  font-family: 'Permanent Marker', cursive;
 }
