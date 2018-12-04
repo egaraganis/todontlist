@@ -13,7 +13,7 @@ app.use(express.static('./public'));
 todoController(app);
 
 // listen to port
-var port= 9001;
+var port=3089;
 app.listen(port);
 console.log('Listening to port ' + port);
 
