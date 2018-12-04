@@ -1,6 +1,6 @@
-# todolist
+# To Don't List
 
-A simple , yet effective , to-do list.
+Not your average todo lisdt.
 
 Created using nodeJs.
 
